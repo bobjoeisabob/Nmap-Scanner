@@ -11,13 +11,13 @@ print("scanning", ip, "now; output in JSON")
 nmap = nmap3.NmapScanTechniques()
 nmap3 = nmap3.Nmap()
 if type == 1:
-	results = nmap3.scan_top_ports(ip)
-	print(results)
+    results = nmap3.scan_top_ports(ip)
+    print(results)
 
 if type == 2:
-	results1 = nmap.nmap_list_scan(ip)
-	print(results1)
+    results1 = nmap.nmap_list_scan(ip)
+    print(results1)
 
 if type == 3:
-	 results2 = nmap.nmap_ping_scan(ip)
-	 print(results2)
+    results2 = nmap.nmap_ping_scan(ip)
+    print(results2)
